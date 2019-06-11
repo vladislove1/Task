@@ -1,0 +1,49 @@
+.top__menu{
+    background-color: #555454;
+    padding: 5px;
+}
+#notification-bell{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #ffef3e;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.categories{
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #6a6a6a;
+    display: none;
+}
+.categories p{
+    padding: 5px;
+    margin: 0;
+    color: gold;
+}
+.categories p:hover{
+    background-color: #919192;
+    cursor: pointer;
+}
+.notifications{
+    display: none;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: #6a6a6a;
+}
+.notification-item{
+    padding: 5px;
+    border-bottom: #fff 1px solid;
+    cursor: pointer;
+}
+.active{
+    color: gold;
+}
+.empty{
+    color: #fff !important;
+}
